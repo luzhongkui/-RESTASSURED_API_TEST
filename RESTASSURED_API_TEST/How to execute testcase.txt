@@ -1,0 +1,50 @@
+How many ways we can execute frameowork/testcases
+1. TestNG.xml
+2. pom.xml
+3. Command prompt
+4. run.bat
+5. Jenkins
+
+pom.xml:
+
+2 plugins are required to execute project through pom.xml file
+  a.) maven-compiler-plugin
+  b.) maven-surefire-plugin
+
+Command Prompt:
+prerequisite: download and install Maven:
+Maven:
+	available as a plugin within Eclipse
+	available as a software on OS
+1.download maven for windows
+2.add maven path in environment variables
+3.verify maven installed on windows or not ?
+  mvn -version
+mvn clean intall
+
+
+
+
+GITHUB :
+Step 1: Sign up to GITHUB repository & get the account(luzhongkui/Luzk@19690210 GITHUB)
+Step 2: Login to GITHUB
+Step 3: Create a new repository:
+	    https://github.com/luzhongkui/-RESTASSURED_API_TEST.git
+Step 4: create a local GIT repository with Eclipse:
+        Clone remote GITHUB to local GIT repository within Eclipse by using URL.
+Step 5: Add our project to local GIT repository(Team->Share)
+	    
+
+
+
+system:
+IBM_JAVA_OPTIONS
+-Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"
+
+JAVA_TOOL_OPTIONS
+-agentlib:jvmhook
+_JAVA_OPTIONS
+-Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "restassuredtestsuit" >
+
+<listeners>
+	<listener class-name = "com.RestAssured_Framework_Utilities.Listeners" />
+																
+</listeners>
+
+<test thread-count="4" name = "restassuredtests">
+	<classes >
+		<class name = "com.RestAssuredFramework_Testcases.FrameworkTC.TC001_getAllEmployees" />
+		<class name = "com.RestAssuredFramework_Testcases.FrameworkTC.TC002_getSingleEmployees" />
+		<class name = "com.RestAssuredFramework_Testcases.FrameworkTC.TC003_Post_Employee_Record" />
+		<class name = "com.RestAssuredFramework_Testcases.FrameworkTC.TC004_Put_Employee_Record" />
+		
+	</classes>
+
+</test>
+	
+</suite>
